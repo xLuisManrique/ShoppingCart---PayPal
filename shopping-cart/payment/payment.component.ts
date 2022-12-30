@@ -29,7 +29,7 @@ export class PaymentComponent implements OnInit{
   private initConfig(): void {
     this.payPalConfig = {
       currency: 'EUR',
-      clientId: 'AXxZSBcUqpey3hZ1YFL7iSKxRZzfsECzeYORoYox1x72aJPmbzOJ0L200H_LCR6QR9uBGF3Q3sBjvMrf',
+      clientId: ' CLIENT ID HERE ',
       createOrderOnClient: (data) =>
         <ICreateOrderRequest>{
           intent: 'CAPTURE',
